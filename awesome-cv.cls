@@ -170,16 +170,32 @@
 \definecolor{piechartred9}{HTML}{ffa37f}
 \definecolor{piechartred10}{HTML}{ffbf98}
 % Pie chart awesome oranges
-\definecolor{piechartorange1}{HTML}{ff6138}
-\definecolor{piechartorange2}{HTML}{ff784d}
-\definecolor{piechartorange3}{HTML}{ff8c5f}
-\definecolor{piechartorange4}{HTML}{ff9e71}
-\definecolor{piechartorange5}{HTML}{ffaf81}
-\definecolor{piechartorange6}{HTML}{ffc090}
-\definecolor{piechartorange7}{HTML}{ffd09f}
-\definecolor{piechartorange8}{HTML}{ffe0ae}
-\definecolor{piechartorange9}{HTML}{fff0bc}
-\definecolor{piechartorange10}{HTML}{ffffcb}
+\definecolor{piechartorange1}{HTML}{fe783e}
+\definecolor{piechartorange2}{HTML}{fd8a43}
+\definecolor{piechartorange3}{HTML}{fd9b47}
+\definecolor{piechartorange4}{HTML}{fcaa4c}
+\definecolor{piechartorange5}{HTML}{fcb950}
+\definecolor{piechartorange6}{HTML}{fbc854}
+\definecolor{piechartorange7}{HTML}{fbd658}
+\definecolor{piechartorange8}{HTML}{fae45c}
+\definecolor{piechartorange9}{HTML}{faf15f}
+\definecolor{piechartorange10}{HTML}{f9ff63}
+% Pie chart my blues
+\definecolor{piechartmyblues1}{HTML}{0078be}
+\definecolor{piechartmyblues2}{HTML}{1286c5}
+\definecolor{piechartmyblues3}{HTML}{2493cd}
+\definecolor{piechartmyblues4}{HTML}{36a1d4}
+\definecolor{piechartmyblues5}{HTML}{48aedb}
+\definecolor{piechartmyblues6}{HTML}{59bbe2}
+\definecolor{piechartmyblues7}{HTML}{6bc9e9}
+\definecolor{piechartmyblues8}{HTML}{7cd6f1}
+\definecolor{piechartmyblues9}{HTML}{8ee3f8}
+\definecolor{piechartmyblues10}{HTML}{9ff1ff}
+% My colors
+\definecolor{myblue}{HTML}{0078BE}
+\definecolor{mylightblue}{HTML}{59bbe2}
+\definecolor{myorange}{HTML}{fe783e}
+\definecolor{mylightorange}{HTML}{fd8c44}
 
 % Boolean value to switch section color highlighting
 \newbool{acvSectionColorHighlight}
