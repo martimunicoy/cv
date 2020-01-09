@@ -1,0 +1,50 @@
+%-------------------------------------------------------------------------------
+%	DEFINITIONS
+%-------------------------------------------------------------------------------
+
+\def\angle{0}
+\def\radius{1.5}
+%\def\cyclelist{{"piechart1", "piechart2", "piechart3", "piechart4", "piechart5", "piechart6", "piechart7", "piechart8", "piechart9", "piechart10"}}
+%\def\cyclelist{{"piechartred1", "piechartred2", "piechartred3", "piechartred4", "piechartred5", "piechartred6", "piechartred7", "piechartred8", "piechartred9", "piechartred10"}}
+\def\cyclelist{{"piechartorange1", "piechartorange2", "piechartorange3", "piechartorange4", "piechartorange5", "piechartorange6", "piechartorange7", "piechartorange8", "piechartorange9", "piechartorange10"}}
+
+\input{objects/barchart.tex}
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{minipage}[t]{0.5\textwidth}
+\cvsection{Languages}
+\begin{cvlanguages}
+
+\vspace{10pt}
+
+\begin{center}
+\begin{barchart}{10}{4}{awesome-orange}{gray}{white}{orange}{awesome-orange}{awesome-orange}
+	\baritem{100}{English}{0}{0}{90}
+	\baritem{100}{Spanish}{0}{0}{100}
+	\baritem{100}{Catalan}{0}{0}{100}
+\end{barchart}
+\end{center}
+
+%---------------------------------------------------------
+\end{cvlanguages}
+
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+
+
+\cvsection{Interests}
+\begin{cvinterests}
+
+\begin{barchart}{10}{5.5}{awesome-orange}{gray}{white}{orange}{awesome-orange}{awesome-orange}
+	\baritem{60}{Software development}{0}{0}{60}
+	\baritem{60}{Computational modeling}{0}{0}{55}
+	\baritem{60}{Big data}{0}{0}{30}
+	\baritem{60}{Drug design}{0}{0}{35}
+	\baritem{60}{Enzyme engineering}{0}{0}{35}
+\end{barchart}
+
+\end{cvinterests}
+
+\end{minipage}
