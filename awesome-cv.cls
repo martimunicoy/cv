@@ -170,16 +170,16 @@
 \definecolor{piechartred9}{HTML}{ffa37f}
 \definecolor{piechartred10}{HTML}{ffbf98}
 % Pie chart awesome oranges
-\definecolor{piechartorange1}{HTML}{540000}
-\definecolor{piechartorange2}{HTML}{6c0000}
-\definecolor{piechartorange3}{HTML}{870000}
-\definecolor{piechartorange4}{HTML}{a40000}
-\definecolor{piechartorange5}{HTML}{c22907}
-\definecolor{piechartorange6}{HTML}{e04621}
-\definecolor{piechartorange7}{HTML}{ff6138}
-\definecolor{piechartorange8}{HTML}{ff7b4f}
-\definecolor{piechartorange9}{HTML}{ff9667}
-\definecolor{piechartorange10}{HTML}{ffb17f}
+\definecolor{piechartorange1}{HTML}{ff6138}
+\definecolor{piechartorange2}{HTML}{ff784d}
+\definecolor{piechartorange3}{HTML}{ff8c5f}
+\definecolor{piechartorange4}{HTML}{ff9e71}
+\definecolor{piechartorange5}{HTML}{ffaf81}
+\definecolor{piechartorange6}{HTML}{ffc090}
+\definecolor{piechartorange7}{HTML}{ffd09f}
+\definecolor{piechartorange8}{HTML}{ffe0ae}
+\definecolor{piechartorange9}{HTML}{fff0bc}
+\definecolor{piechartorange10}{HTML}{ffffcb}
 
 % Boolean value to switch section color highlighting
 \newbool{acvSectionColorHighlight}
