@@ -23,12 +23,10 @@
 \begin{tikzpicture}[nodes = {}]
   \foreach \percent/\name in {
       35/Python,
-      30/C and C++,
-      15/GitHub,
-      5/LaTeX,
-      5/GNU Bash,
-      5/SQL,
-      5/HTML5 and CSS
+      25/C\slash C++,
+      15/Git\slash GitHub,
+      20/GNU Bash,
+      10/OpenMP\slash OpenMPI
     } {
       \ifx\percent\empty\else               % If \percent is empty, do nothing
         \global\advance\cyclecount by 1     % Advance cyclecount
@@ -66,15 +64,14 @@
 \newcount\ind \ind=-1
 \begin{tikzpicture}[nodes = {}]
   \foreach \percent/\name in {
-      30/Maestro,
-      15/UCSF Chimera,
-      15/Glide,
-      10/Desmond,
-      10/VMD,
-      10/OpenMM,
-      5/MDTraj,
-      5/GOLD,
-      5/AmberTools
+      15/Scikit-learn,
+      15/AmberTools,
+      10/Autodock Vina,
+      10/PyMOL,
+      5/OpenMM,
+      30/RDKit,
+      5/pyTorch,
+      10/rDock
     } {
       \ifx\percent\empty\else               % If \percent is empty, do nothing
         \global\advance\cyclecount by 1     % Advance cyclecount
